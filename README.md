@@ -1,7 +1,20 @@
 # PagingRecycler [![](https://jitpack.io/v/AKiniyalocts/PagingRecycler.svg)](https://jitpack.io/#AKiniyalocts/PagingRecycler)
 
 A quick way to implement a paging pattern for a RecyclerView. PagingRecycler will show a "loading" view at the bottom of your RecyclerView while you are waiting for a page of results from your api call, then remove it when you are finished.
+### Gradle
+```gradle 
 
+  allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+	
+		dependencies {
+	        compile 'com.github.AKiniyalocts:PagingRecycler:v1.0'
+	}
+```
 ## Usage
 ### Adapter
 ```java
