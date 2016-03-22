@@ -8,7 +8,7 @@ A quick way to implement a paging pattern for a RecyclerView. PagingRecycler wil
 
 public class MyAdapter extends PagingAdapter{
   
-  private List<Item< myItems;
+  private List<Item> myItems;
   
   public MyAdapter(){
     myItems = new ArrayList<>();
