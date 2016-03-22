@@ -12,7 +12,7 @@ A quick way to implement a paging pattern for a RecyclerView. PagingRecycler wil
 	}
 	
 		dependencies {
-	        compile 'com.github.AKiniyalocts:PagingRecycler:v1.0'
+	        compile 'com.github.AKiniyalocts:PagingRecycler:v1.1'
 	}
 ```
 ## Usage
