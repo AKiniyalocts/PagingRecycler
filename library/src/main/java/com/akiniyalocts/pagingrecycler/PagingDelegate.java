@@ -103,7 +103,6 @@ public class PagingDelegate extends RecyclerView.OnScrollListener{
         private boolean fullspanLoadingView = false;
 
         public Builder(PagingAdapter pagingAdapter){
-            this.setRecyclerView(recyclerView);
             this.setPagingAdapter(pagingAdapter);
         }
 
